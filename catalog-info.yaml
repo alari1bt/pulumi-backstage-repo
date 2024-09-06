@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TestStack
+  description: Stack for TestStack
+  annotations:
+    pulumi.com/project-slug: alari1bt/TestStack/ocw2024
+spec:
+  owner: group:default/development
+  type: service
+  lifecycle: experimental
